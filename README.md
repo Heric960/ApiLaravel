@@ -18,6 +18,27 @@ Gerar a chave no arquivo .env
 php artisan key:generate
 ```
 
+Executar as migration
+```
+php artisan migrate
+```
+
+Executar as seed
+```
+php artisan db:seed
+```
+
+Iniciar o projeto criado com Laravel
+```
+php artisan serve
+```
+
+Para acessar a API, é recomendado utilizar o Postman ou similar, para 
+simular as requisições à API.
+```
+http://127.0.0.1:8000/api/users
+```
+
 ## Sequencia para criar o projeto
 Criar o projeto com Laravel
 ```
